@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome Url -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./img/dark-theme-logo.svg"
+      type="image/x-icon"
+    />
+    <!-- Bootstrap Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Own Css FIle -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Responsive Css -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <title>Razu Blog App</title>
+  </head>
+  <body>
+    <!-- Header Section Start Here -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              src="./img/dark-theme-logo.svg"
+              alt="This is logo"
+              class="logo light-logo"
+              style="display: none"
+            />
+            <img
+              src="./img/light-theme-logo.svg"
+              alt="This is logo"
+              class="logo dark-logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Elements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Membership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tags</a>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center">
+              <button class="app_btn transparemnt">Sign in</button>
+              <button class="app_btn singup">Sign up</button>
+              <button class="search app_btn" type="submit">
+                <i class="fa-solid fa-magnifying-glass me-2"></i>
+              </button>
+              <div>
+                <button class="dark-button app_btn">
+                  <i class="fa-solid fa-sun"></i>
+                </button>
+                <button class="light-button app_btn">
+                  <i class="fa-solid fa-moon"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header Section Ends Here -->
+    <!-- Home Section Start Here -->
+    <section class="home">
+      <div class="container">
+        <div class="home_content">
+          <h1>
+            In depth resource on UI, UX and
+            <br />
+            everything in between.
+          </h1>
+          <p>
+            Inros is a modern classic blog theme for Ghost. Use this theme for
+            company blog <br />
+            magazine, niche or personal blog.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Home Section Ends Here -->
+
+    <!-- Features Blog Post Start Here  -->
+    <section class="sec_p features_post">
+      <div class="container">
+        <h3 class="mb-3">Featured Posts</h3>
+        <div class="row g-5">
+          <div class="col-lg-6 col-md-12">
+            <div class="features_blog">
+              <div class="blog_img">
+                <img src="./img/blog1.jpg" alt="This is log images" />
+              </div>
+              <div class="category mt-4">
+                <button class="transparemnt app_btn">Lifestyle</button>
+              </div>
+              <div class="title_desc mt-4">
+                <h1>Self-observation is the first step of inner unfolding</h1>
+                <p class="mt-3 desc">
+                  Almost instantly the whole truth of the transaction seemed to
+                  rush upon her mind, and her wrath was inconceivably violent.
+                  She asked me a thousand questions in a breath; but,
+                  fortunately, was too vehement to attend to my embarrassment,
+                  which must otherwise have betrayed my knowledge of the deceit.
+                  Revenge
+                </p>
+              </div>
+              <div class="user_info">
+                <div class="user_img">
+                  <img src="./img/user.jpeg" alt="This is user" />
+                </div>
+                <div class="user_details">
+                  <h5>Biswajit Saha</h5>
+                  <p class="desc">Mar 06, 2022 . 3 min read</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="category_blog">
+              <div class="blog_img">
+                <img src="./img/blog2.jpg" alt="This is log images" />
+              </div>
+              <div class="category_content">
+                <button class="app_btn transparemnt">Health</button>
+                <h3 class="mt-3">
+                  The mind and body are not separate. what affects one, affects
+                  the other
+                </h3>
+              </div>
+            </div>
+            <div class="category_blog">
+              <div class="blog_img">
+                <img src="./img/blog3.jpg" alt="This is log images" />
+              </div>
+              <div class="category_content">
+                <button class="app_btn transparemnt">Health</button>
+                <h3 class="mt-3">
+                  The mind and body are not separate. what affects one, affects
+                  the other
+                </h3>
+              </div>
+            </div>
+            <div class="category_blog">
+              <div class="blog_img">
+                <img src="./img/blog4.jpg" alt="This is log images" />
+              </div>
+              <div class="category_content">
+                <button class="app_btn transparemnt">Health</button>
+                <h3 class="mt-3">
+                  The mind and body are not separate. what affects one, affects
+                  the other
+                </h3>
+              </div>
+            </div>
+            <div class="category_blog">
+              <div class="blog_img">
+                <img src="./img/blog5.jpg" alt="This is log images" />
+              </div>
+              <div class="category_content">
+                <button class="app_btn transparemnt">Health</button>
+                <h3 class="mt-3">
+                  The mind and body are not separate. what affects one, affects
+                  the other
+                </h3>
+              </div>
+            </div>
+            <div class="category_blog">
+              <div class="blog_img">
+                <img src="./img/blog6.jpg" alt="This is log images" />
+              </div>
+              <div class="category_content">
+                <button class="app_btn transparemnt">Health</button>
+                <h3 class="mt-3">
+                  The mind and body are not separate. what affects one, affects
+                  the other
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features Blog Post Ends Here -->
+
+    <!-- Most recent posts section start Here -->
+    <section class="recent_post sec_p">
+      <div class="container">
+        <h3 class="mb-3">Most recent posts</h3>
+        <div class="row g-5">
+         <!-- Single Blog Start -->
+         <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="rent_img">
+              <img src="./img/blog7.jpg" alt="This is demo images" />
+            </div>
+            <div class="category mt-4">
+              <button class="transparemnt app_btn">Nature</button>
+            </div>
+            <div class="title_desc mt-4">
+              <h1>Autumn is a second spring when every leaf is a flower</h1>
+              <p class="mt-3 desc">
+                She then expatiated very warmly upon the advantages I should
+                reap from her plan; talked in a high style of my future
+                grandeur; assured me how heartily I should...
+              </p>
+            </div>
+            <div class="user_info">
+              <div class="user_img">
+                <img src="./img/user.jpeg" alt="This is user" />
+              </div>
+              <div class="user_details">
+                <h5>Biswajit Saha</h5>
+                <p class="desc">Mar 06, 2022 . 3 min read</p>
+              </div>
+            </div>
+          </div>
+         <!-- Single Blog End -->
+         <!-- Single Blog Start -->
+         <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="rent_img">
+              <img src="./img/blog8.jpg" alt="This is demo images" />
+            </div>
+            <div class="category mt-4">
+              <button class="transparemnt app_btn">Nature</button>
+            </div>
+            <div class="title_desc mt-4">
+              <h1>Autumn is a second spring when every leaf is a flower</h1>
+              <p class="mt-3 desc">
+                She then expatiated very warmly upon the advantages I should
+                reap from her plan; talked in a high style of my future
+                grandeur; assured me how heartily I should...
+              </p>
+            </div>
+            <div class="user_info">
+              <div class="user_img">
+                <img src="./img/user.jpeg" alt="This is user" />
+              </div>
+              <div class="user_details">
+                <h5>Biswajit Saha</h5>
+                <p class="desc">Mar 06, 2022 . 3 min read</p>
+              </div>
+            </div>
+          </div>
+         <!-- Single Blog End -->
+         <!-- Single Blog Start -->
+         <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="rent_img">
+              <img src="./img/blog9.jpg" alt="This is demo images" />
+            </div>
+            <div class="category mt-4">
+              <button class="transparemnt app_btn">Nature</button>
+            </div>
+            <div class="title_desc mt-4">
+              <h1>Autumn is a second spring when every leaf is a flower</h1>
+              <p class="mt-3 desc">
+                She then expatiated very warmly upon the advantages I should
+                reap from her plan; talked in a high style of my future
+                grandeur; assured me how heartily I should...
+              </p>
+            </div>
+            <div class="user_info">
+              <div class="user_img">
+                <img src="./img/user.jpeg" alt="This is user" />
+              </div>
+              <div class="user_details">
+                <h5>Biswajit Saha</h5>
+                <p class="desc">Mar 06, 2022 . 3 min read</p>
+              </div>
+            </div>
+          </div>
+         <!-- Single Blog End -->
+         <!-- Single Blog Start -->
+         <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="rent_img">
+              <img src="./img/blog1.jpg" alt="This is demo images" />
+            </div>
+            <div class="category mt-4">
+              <button class="transparemnt app_btn">Nature</button>
+            </div>
+            <div class="title_desc mt-4">
+              <h1>Autumn is a second spring when every leaf is a flower</h1>
+              <p class="mt-3 desc">
+                She then expatiated very warmly upon the advantages I should
+                reap from her plan; talked in a high style of my future
+                grandeur; assured me how heartily I should...
+              </p>
+            </div>
+            <div class="user_info">
+              <div class="user_img">
+                <img src="./img/user.jpeg" alt="This is user" />
+              </div>
+              <div class="user_details">
+                <h5>Biswajit Saha</h5>
+                <p class="desc">Mar 06, 2022 . 3 min read</p>
+              </div>
+            </div>
+          </div>
+         <!-- Single Blog End -->
+         <!-- Single Blog Start -->
+         <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="rent_img">
+              <img src="./img/blog2.jpg" alt="This is demo images" />
+            </div>
+            <div class="category mt-4">
+              <button class="transparemnt app_btn">Nature</button>
+            </div>
+            <div class="title_desc mt-4">
+              <h1>Autumn is a second spring when every leaf is a flower</h1>
+              <p class="mt-3 desc">
+                She then expatiated very warmly upon the advantages I should
+                reap from her plan; talked in a high style of my future
+                grandeur; assured me how heartily I should...
+              </p>
+            </div>
+            <div class="user_info">
+              <div class="user_img">
+                <img src="./img/user.jpeg" alt="This is user" />
+              </div>
+              <div class="user_details">
+                <h5>Biswajit Saha</h5>
+                <p class="desc">Mar 06, 2022 . 3 min read</p>
+              </div>
+            </div>
+          </div>
+         <!-- Single Blog End -->
+         <!-- Single Blog Start -->
+         <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="rent_img">
+              <img src="./img/blog3.jpg" alt="This is demo images" />
+            </div>
+            <div class="category mt-4">
+              <button class="transparemnt app_btn">Nature</button>
+            </div>
+            <div class="title_desc mt-4">
+              <h1>Autumn is a second spring when every leaf is a flower</h1>
+              <p class="mt-3 desc">
+                She then expatiated very warmly upon the advantages I should
+                reap from her plan; talked in a high style of my future
+                grandeur; assured me how heartily I should...
+              </p>
+            </div>
+            <div class="user_info">
+              <div class="user_img">
+                <img src="./img/user.jpeg" alt="This is user" />
+              </div>
+              <div class="user_details">
+                <h5>Biswajit Saha</h5>
+                <p class="desc">Mar 06, 2022 . 3 min read</p>
+              </div>
+            </div>
+          </div>
+         <!-- Single Blog End -->
+         <!-- Single Blog Start -->
+         <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="rent_img">
+              <img src="./img/blog4.jpg" alt="This is demo images" />
+            </div>
+            <div class="category mt-4">
+              <button class="transparemnt app_btn">Nature</button>
+            </div>
+            <div class="title_desc mt-4">
+              <h1>Autumn is a second spring when every leaf is a flower</h1>
+              <p class="mt-3 desc">
+                She then expatiated very warmly upon the advantages I should
+                reap from her plan; talked in a high style of my future
+                grandeur; assured me how heartily I should...
+              </p>
+            </div>
+            <div class="user_info">
+              <div class="user_img">
+                <img src="./img/user.jpeg" alt="This is user" />
+              </div>
+              <div class="user_details">
+                <h5>Biswajit Saha</h5>
+                <p class="desc">Mar 06, 2022 . 3 min read</p>
+              </div>
+            </div>
+          </div>
+         <!-- Single Blog End -->
+         <!-- Single Blog Start -->
+         <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="rent_img">
+              <img src="./img/blog5.jpg" alt="This is demo images" />
+            </div>
+            <div class="category mt-4">
+              <button class="transparemnt app_btn">Nature</button>
+            </div>
+            <div class="title_desc mt-4">
+              <h1>Autumn is a second spring when every leaf is a flower</h1>
+              <p class="mt-3 desc">
+                She then expatiated very warmly upon the advantages I should
+                reap from her plan; talked in a high style of my future
+                grandeur; assured me how heartily I should...
+              </p>
+            </div>
+            <div class="user_info">
+              <div class="user_img">
+                <img src="./img/user.jpeg" alt="This is user" />
+              </div>
+              <div class="user_details">
+                <h5>Biswajit Saha</h5>
+                <p class="desc">Mar 06, 2022 . 3 min read</p>
+              </div>
+            </div>
+          </div>
+         <!-- Single Blog End -->
+         <!-- Single Blog Start -->
+         <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="rent_img">
+              <img src="./img/blog6.jpg" alt="This is demo images" />
+            </div>
+            <div class="category mt-4">
+              <button class="transparemnt app_btn">Nature</button>
+            </div>
+            <div class="title_desc mt-4">
+              <h1>Autumn is a second spring when every leaf is a flower</h1>
+              <p class="mt-3 desc">
+                She then expatiated very warmly upon the advantages I should
+                reap from her plan; talked in a high style of my future
+                grandeur; assured me how heartily I should...
+              </p>
+            </div>
+            <div class="user_info">
+              <div class="user_img">
+                <img src="./img/user.jpeg" alt="This is user" />
+              </div>
+              <div class="user_details">
+                <h5>Biswajit Saha</h5>
+                <p class="desc">Mar 06, 2022 . 3 min read</p>
+              </div>
+            </div>
+          </div>
+         <!-- Single Blog End -->
+        </div>
+        <div class="d-flex align-items-center  justify-content-center mt-5">
+            <button class="app_btn singup">See More</button>
+        </div>
+      </div>
+    </section>
+    <!-- Most recent posts section Ends Here -->
+
+    <!-- Subscribe Section Start Here -->
+    <section class="subcribe sec_p">
+        <div class="container">
+            <div class="sub_main">
+                <div class="sub_content">
+                    <h1>Subscribe to Inros</h1>
+                    <p class="desc">
+                        Get all the latest posts delivered straight to your inbox.
+                    </p>
+                </div>
+                <div class="sub_email">
+                    <input type="text" placeholder="Your name">
+                    <input type="email" placeholder="Your email address">
+                    <button class="singup app_btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Subscribe Section Ends Here -->
+
+    <!-- Footer Start Here -->
+    <footer class="footer sec_p">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="footer_content">
+                        <a href="index.html">
+                            <img src="./img/light-theme-logo.svg" alt="This is logo" class="logo">
+                        </a>
+                        <p class="desc mt-3">
+                            Inros is a modern classic blog theme for Ghost. Use this theme for company blog, magazine, niche or personal blog.Inros is a modern classic blog theme for Ghost. Use this theme for company blog, magazine, niche or personal blog.
+                        </p>
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                   <div class="d-flex justify-content-between align-items-center mt-4">
+                       <div class="footer_item">
+                           <p class="text-muted">
+                            Features
+                           </p>
+                           <ul>
+                               <li class="mt-3"><a href="#" class="nav-link">Elements</a></li>
+                               <li class="mt-3"><a href="#" class="nav-link">Tags</a></li>
+                               <li class="mt-3"><a href="#" class="nav-link">Authors</a></li>
+                               <li class="mt-3"><a href="#" class="nav-link">404 page</a></li>
+                           </ul>
+                       </div>
+                       <div class="footer_item">
+                           <p class="text-muted">
+                            Features
+                           </p>
+                           <ul>
+                               <li class="mt-3"><a href="#" class="nav-link">Elements</a></li>
+                               <li class="mt-3"><a href="#" class="nav-link">Tags</a></li>
+                               <li class="mt-3"><a href="#" class="nav-link">Authors</a></li>
+                               <li class="mt-3"><a href="#" class="nav-link">404 page</a></li>
+                           </ul>
+                       </div>
+                       <div class="footer_item">
+                           <p class="text-muted">
+                            Features
+                           </p>
+                           <ul>
+                               <li class="mt-3"><a href="#" class="nav-link">Elements</a></li>
+                               <li class="mt-3"><a href="#" class="nav-link">Tags</a></li>
+                               <li class="mt-3"><a href="#" class="nav-link">Authors</a></li>
+                               <li class="mt-3"><a href="#" class="nav-link">404 page</a></li>
+                           </ul>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Ends Here -->
+
+
+    <!-- Bootstrap Js File  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Jquery Url here -->
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <!-- Main Js File -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>

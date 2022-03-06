@@ -1,0 +1,26 @@
+/* Laptop */
+@media (max-width:990px){
+    .sub_main {
+        flex-direction: column;
+    }
+    
+    .sub_main input {
+        width: 100%;
+        margin-top: 1em;
+    }
+    
+    .sub_main button {
+        width: 100%;
+        margin-top: 1em;
+    }
+}
+
+/* Mobile */
+@media (max-width:520px){
+    .home_content h1{
+        font-size: 2.3em;
+    }
+    .app_btn{
+        padding:0.5em 0.7em;
+    }
+}
